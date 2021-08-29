@@ -65,10 +65,10 @@ Here are the last two sections for the model card.
 
 * **Charts related to final model**:
 
-<img src=https://user-images.githubusercontent.com/89204808/131267384-57a841ec-16f9-4a77-93a3-f478f4f8b864.png, width = 300, height = 250>
-<img src=https://user-images.githubusercontent.com/89204808/131267395-f2c441e0-66b2-4001-9bbb-03f6fe51f0b7.png, width= 500, height = 400>
-<img src=https://user-images.githubusercontent.com/89204808/131267418-37fe34fe-0ca9-4bfc-8f91-6c8155da1a21.png, width = 250 height = 300>
-<img src=https://user-images.githubusercontent.com/89204808/131267424-bffe8fcf-fae5-4e91-9ea4-fece2dd7ef54.png, width = 250 height = 300>
+<img src=https://user-images.githubusercontent.com/89204808/131267384-57a841ec-16f9-4a77-93a3-f478f4f8b864.png width = 300, height = 250>
+<img src=https://user-images.githubusercontent.com/89204808/131267395-f2c441e0-66b2-4001-9bbb-03f6fe51f0b7.png width= 500, height = 400>
+<img src=https://user-images.githubusercontent.com/89204808/131267418-37fe34fe-0ca9-4bfc-8f91-6c8155da1a21.png width = 250 height = 300>
+<img src=https://user-images.githubusercontent.com/89204808/131267424-bffe8fcf-fae5-4e91-9ea4-fece2dd7ef54.png width = 250 height = 300>
 
 
 
