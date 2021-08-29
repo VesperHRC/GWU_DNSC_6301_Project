@@ -18,14 +18,14 @@
 | **DELINQ_NEXT**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 
 * **Source of training data**: GWU Blackboard, email `jphall@gwu.edu` for more information
-* **How training data was divided into training and validation data**: 50% training, 25% validation, 25% test
+* **How training data was divided into training and validation data**: 70% training, 15% validation, 15% test
 * **Number of rows in training and validation data**:
-  * Training rows: 15,000
-  * Validation rows: 7,500
+  * Training rows: 21,000
+  * Validation rows: 4,500
 
 ### Test Data
 * **Source of test data**: GWU Blackboard, email `jphall@gwu.edu` for more information
-* **Number of rows in test data**: 7,500
+* **Number of rows in test data**: 4,500
 * **State any differences in columns between training and test data**: None
 
 Here are the last two sections for the model card.
@@ -35,40 +35,40 @@ Here are the last two sections for the model card.
 * **Final Results Metrics**:
 
      All results were recorded with the following model settings:
-     * Estimators: 100
-     * Max tree depth: 9
+     * Estimators: 400
+     * Max tree depth: 11
      * Cutoff: .20
 
 | Name | AUC Results |
 | ---- | ----------- |
-|**Training**| 83.9% |
-|**Validation**| 78.1% |
-|**Test**| 77.3% |
+|**Training**| 88.5% |
+|**Validation**| 78.4% |
+|**Test**| 77.4% |
 
 | Desc | Results |
 | ---- | ------- |
-|**White proportion**| .726 |
-|**Hispanic proportion**| .603 |
-|**Black proportion**| .615 |
-|**Asian proportion**| .699 |
+|**White proportion**| .729 |
+|**Hispanic proportion**| .601 |
+|**Black proportion**| .617 |
+|**Asian proportion**| .706 |
 | | |
-|**Male proportion** | .645 |
-|**Female proportion**| .689 |
+|**Male proportion** | .641 |
+|**Female proportion**| .696 |
 
 | Desc | AIR Results |
 | ---- | ------- |
-|**Hispanic-to-White**| .83 |
+|**Hispanic-to-White**| .82 |
 |**Black-to-White**| .85 |
-|**Asian-to-White**| .96 |
-|**Female-to-Male**| 1.07 |
+|**Asian-to-White**| .97 |
+|**Female-to-Male**| 1.09 |
 
 
 * **Charts related to final model**:
 
-<img src=https://user-images.githubusercontent.com/89542514/131179604-8126786d-d2a9-4cba-939d-ed920a6c062f.png width = 300, height = 250>
-<img src=https://user-images.githubusercontent.com/89542514/131179280-d07e743f-17f3-4be2-a98e-1dc21b8ddead.png = 500, height = 400>
-<img src=https://user-images.githubusercontent.com/89542514/131179378-eca9f66a-b7a8-41ec-8157-dc801ff66139.png = 500, height = 400>
-<img src=https://user-images.githubusercontent.com/89542514/131161685-bd5f6226-5386-4450-abb5-1a923e40a418.png width = 250 height = 300>
+<img src=https://user-images.githubusercontent.com/89204808/131267384-57a841ec-16f9-4a77-93a3-f478f4f8b864.png, width = 300, height = 250>
+<img src=https://user-images.githubusercontent.com/89204808/131267395-f2c441e0-66b2-4001-9bbb-03f6fe51f0b7.png, width= 500, height = 400>
+<img src=https://user-images.githubusercontent.com/89204808/131267418-37fe34fe-0ca9-4bfc-8f91-6c8155da1a21.png, width = 250 height = 300>
+<img src=https://user-images.githubusercontent.com/89204808/131267424-bffe8fcf-fae5-4e91-9ea4-fece2dd7ef54.png, width = 250 height = 300>
 
 
 
