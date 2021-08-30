@@ -85,9 +85,9 @@
 
 
 * **Charts related to final model**:
-* Plot of ariable importance
+* Plot of variable importance
 <img src=https://user-images.githubusercontent.com/89204808/131267384-57a841ec-16f9-4a77-93a3-f478f4f8b864.png width = 500, height = 335>
-* Plot of Tree depths vs. training and validation AUC and AIR
+* Plot of tree depths vs. training and validation AUC and AIR
 <img src=https://user-images.githubusercontent.com/89204808/131267395-f2c441e0-66b2-4001-9bbb-03f6fe51f0b7.png width= 500, height = 400>
 * Accuracy trend as cutoff increases
 <img src=https://user-images.githubusercontent.com/89204808/131267418-37fe34fe-0ca9-4bfc-8f91-6c8155da1a21.png width = 500 height = 600>
