@@ -44,12 +44,12 @@
 * **State any differences in columns between training and test data**: None
 
 ### Model Details
-* **Columns used as inputs in the final model**: DELINQ_NEXT
-* **Column(s) used as target(s) in the final model**: LIMIT_BAL, PAY_0, PAY_2 - PAY_6', BILL_AMT1 - BILL_AMT6, PAY_AMT1 - PAY_AMT6
+* **Columns used as inputs in the final model**: LIMIT_BAL, PAY_0, PAY_2 - PAY_6', BILL_AMT1 - BILL_AMT6, PAY_AMT1 - PAY_AMT6DELINQ_NEXT
+* **Column(s) used as target(s) in the final model**: DELINQ_NEXT
 * **Type of model**: Random Forests
-* **Software used to implement the model**: Python
-* **Version of the modeling software**: Python 3.6.9
-* **Hyperparameters or other settings of your model**: None
+* **Software used to implement the model**: Python, Sklearn
+* **Version of the modeling software**: Python 3.6.9, Sklearn 0.22.2.post1
+* **Hyperparameters or other settings of your model**: Random forest classifier parameters:n_estimators, criterion, max_features, max_depth, min_samples_split, min_samples_leaf, min_weight_leaf, min_weight_fraction_leaf, max_leaf_nodes, min_impurity_decrease, bootstrap, oob_score, n_jobs, random_state, verbose, warm_start, class_weight
 
 ### Quantitative Analysis
 * **Metrics used to evaluate final project**: AUC, Cross Validation, Adverse Impact Ratio (AIR), Confusion Matrix
@@ -92,8 +92,8 @@
 * Accuracy trend as cutoff increases
 <img src=https://user-images.githubusercontent.com/89204808/131267418-37fe34fe-0ca9-4bfc-8f91-6c8155da1a21.png width = 500 height = 600>
 * Grid Research Results
+  Columns from left to right: estimators, tree depths, test AUC, valid AUC, stdv
 <img src=https://user-images.githubusercontent.com/89204808/131267424-bffe8fcf-fae5-4e91-9ea4-fece2dd7ef54.png width = 500 height = 600>
-
 
 ### Ethical Considerations
 * **Potential negative impacts of the model**:
