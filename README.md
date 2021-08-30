@@ -34,7 +34,7 @@
 
 * **Source of training data**: GWU Blackboard, email `jphall@gwu.edu` for more information
 * **How training data was divided into training and validation data**: 70% training, 15% validation, 15% test
-* **Number of rows in training and validation data**:
+* **Number of rows in training and validation data**: LIMIT_BAL, 
   * Training rows: 21,000
   * Validation rows: 4,500
 
@@ -43,7 +43,13 @@
 * **Number of rows in test data**: 4,500
 * **State any differences in columns between training and test data**: None
 
-Here are the last two sections for the model card.
+### Model Details
+* **Columns used as inputs in the final model**: DELINQ_NEXT
+* **Column(s) used as target(s) in the final model**: LIMIT_BAL, PAY_0, PAY_2 - PAY_6', BILL_AMT1 - BILL_AMT6, PAY_AMT1 - PAY_AMT6
+* **Type of model**: Random Forests
+* **Software used to implement the model**: Python
+* **Version of the modeling software**: Python 3.6.9
+* **Hyperparameters or other settings of your model**: None
 
 ### Quantitative Analysis
 * **Metrics used to evaluate final project**: AUC, Cross Validation, Adverse Impact Ratio (AIR), Confusion Matrix
