@@ -11,7 +11,6 @@
 
 ### Intended Use
 * **Primary intended uses**: The intended use of this data was to explore the encoded circumstances in determining credit approvals for customers across various categories.
-
 * **Primary intended users**: 6301 Project Team 22.
 * **Out-of-scope use cases**: None.
 
