@@ -85,7 +85,7 @@
 
 
 * **Charts related to final model**:
-* Variable importance plot of best model
+* Plot of ariable importance
 <img src=https://user-images.githubusercontent.com/89204808/131267384-57a841ec-16f9-4a77-93a3-f478f4f8b864.png width = 500, height = 335>
 * Plot of Tree depths vs. training and validation AUC and AIR
 <img src=https://user-images.githubusercontent.com/89204808/131267395-f2c441e0-66b2-4001-9bbb-03f6fe51f0b7.png width= 500, height = 400>
