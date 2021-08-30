@@ -6,7 +6,7 @@
 * **Model date**: 29 August 2021
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: [https://github.com/VesperHRC/GWU_DNSC_6301_Project/blob/main/Team_22_Random_Forest.ipynb)
+* **Model implementation code**: [Team 22 Random Forest.ipynb](Team 22 Random Forest.ipynb)
 
 
 ### Intended Use
