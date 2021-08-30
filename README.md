@@ -49,7 +49,7 @@
 * **Type of model**: Random Forests
 * **Software used to implement the model**: Python, Sklearn
 * **Version of the modeling software**: Python 3.6.9, Sklearn 0.22.2.post1
-* **Hyperparameters or other settings of your model**: Random forest classifier parameters:n_estimators, criterion, max_features, max_depth, min_samples_split, min_samples_leaf, min_weight_leaf, min_weight_fraction_leaf, max_leaf_nodes, min_impurity_decrease, bootstrap, oob_score, n_jobs, random_state, verbose, warm_start, class_weight
+* **Hyperparameters or other settings of your model**: Random forest classifier parameters: n_estimators, criterion, max_features, max_depth, min_samples_split, min_samples_leaf, min_weight_leaf, min_weight_fraction_leaf, max_leaf_nodes, min_impurity_decrease, bootstrap, oob_score, n_jobs, random_state, verbose, warm_start, class_weight
 
 ### Quantitative Analysis
 * **Metrics used to evaluate final project**: AUC, Cross Validation, Adverse Impact Ratio (AIR), Confusion Matrix
