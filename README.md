@@ -1,4 +1,20 @@
 # GWU_DNSC_6301_Project
+
+### Basic Information
+
+* **Person or organization developing model**: Alpha Balde, alpha13balde@gwu.edu; Ranchen (Vesper) Huang, rhuang2@gwu.edu; Jonathan Schlepp, jonathanschlepp@gwu.edu
+* **Model date**: 29 August 2021
+* **Model version**: 1.0
+* **License**: MIT
+* **Model implementation code**: [https://github.com/VesperHRC/GWU_DNSC_6301_Project/blob/main/Team_22_Random_Forest.ipynb)
+
+
+### Intended Use
+* **Primary intended uses**: The intended use of this data was to explore the encoded circumstances in determining credit approvals for customers across various categories.
+
+* **Primary intended users**: 6301 Project Team 22.
+* **Out-of-scope use cases**: None.
+
 ### Training Data
 
 ###Data dictionary: 
