@@ -44,7 +44,7 @@
 * **State any differences in columns between training and test data**: None
 
 ### Model Details
-* **Columns used as inputs in the final model**: LIMIT_BAL, PAY_0, PAY_2 - PAY_6', BILL_AMT1 - BILL_AMT6, PAY_AMT1 - PAY_AMT6DELINQ_NEXT
+* **Columns used as inputs in the final model**: LIMIT_BAL, PAY_0, PAY_2 - PAY_6', BILL_AMT1 - BILL_AMT6, PAY_AMT1 - PAY_AMT6
 * **Column(s) used as target(s) in the final model**: DELINQ_NEXT
 * **Type of model**: Random Forests
 * **Software used to implement the model**: Python, Sklearn
