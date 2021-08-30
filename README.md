@@ -91,8 +91,7 @@
 <img src=https://user-images.githubusercontent.com/89204808/131267395-f2c441e0-66b2-4001-9bbb-03f6fe51f0b7.png width= 500, height = 400>
 * Accuracy trend as cutoff increases
 <img src=https://user-images.githubusercontent.com/89204808/131267418-37fe34fe-0ca9-4bfc-8f91-6c8155da1a21.png width = 500 height = 600>
-* Grid Research Results
-  Columns from left to right: estimators, tree depths, test AUC, valid AUC, stdv
+* Grid Research Results: (Columns from left to right: estimators, tree depths, test AUC, valid AUC, stdv)
 <img src=https://user-images.githubusercontent.com/89204808/131267424-bffe8fcf-fae5-4e91-9ea4-fece2dd7ef54.png width = 500 height = 600>
 
 ### Ethical Considerations
